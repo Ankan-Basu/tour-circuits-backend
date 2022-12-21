@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
   db = client.tours_database
 
-  db.top_sights_collection.create_index([('name', ASCENDING)], unique=True)
-  db.places_collection.create_index([('name', ASCENDING)], unique=True)
+  db.top_sights.create_index([('name', ASCENDING)], unique=True)
+  db.places.create_index([('name', ASCENDING)], unique=True)
 
   create_top_sights_data(db)

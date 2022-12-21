@@ -1,0 +1,93 @@
+{
+  "name": "Sikkim",
+  "hotels": [
+    {
+      "name": "The Barfung Retreat",
+      "features": ["3-star hotel", "Free breakfast", "Pet-friendly"],
+      "price": "\u20b91,568",
+      "image": ""
+    },
+    {
+      "name": "The Khurana Group Dewachen Retreat- Hotel",
+      "features": ["3-star hotel", "Free breakfast", "Wi-Fi"],
+      "price": "\u20b91,230",
+      "image": ""
+    },
+    {
+      "name": "Betel valley tree resort",
+      "features": ["Breakfast ($)", "Free Wi-Fi", "Parking"],
+      "price": "\u20b91,605",
+      "image": ""
+    },
+    {
+      "name": "The Royal Demazong",
+      "features": ["3-star hotel", "Kid-friendly"],
+      "price": "\u20b94,782",
+      "image": ""
+    },
+    {
+      "name": "OYO 8524 Juniper Tree",
+      "features": ["3-star hotel", "Breakfast", "Kid-friendly"],
+      "price": "\u20b91,329",
+      "image": ""
+    },
+    {
+      "name": "OYO 18455 Hotel Golden Shangrila",
+      "features": ["Breakfast", "Room service", "Kitchen in some rooms"],
+      "price": "\u20b91,210",
+      "image": ""
+    },
+    {
+      "name": "Norbu Ghang Retreat and Spa",
+      "features": ["4-star hotel", "Free breakfast", "Free Wi-Fi"],
+      "price": "\u20b926,033",
+      "image": ""
+    },
+    {
+      "name": "Hotel in Sikkim - Tashi Delek Regency",
+      "features": ["3-star hotel", "Kid-friendly"],
+      "price": "\u20b95,250",
+      "image": ""
+    },
+    {
+      "name": "Lachung, North Sikkim, 737120",
+      "features": [
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry"
+      ],
+      "price": "\u20b91,604",
+      "image": ""
+    },
+    {
+      "name": "Urban Oasis Inn",
+      "features": ["2-star hotel", "Room service", "Full-service laundry"],
+      "price": "\u20b9934",
+      "image": ""
+    },
+    {
+      "name": "Lamthang Eco Hut Resort",
+      "features": ["Kid-friendly"],
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "OYO 8701 Hotel Silk Route Residency",
+      "features": ["3-star hotel", "Breakfast", "Kid-friendly"],
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Adhikari Homestay",
+      "features": ["Breakfast", "Room service", "Kitchen in some rooms"],
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Hotel Blue Hills",
+      "features": ["Kid-friendly"],
+      "price": "",
+      "image": ""
+    }
+  ]
+}
