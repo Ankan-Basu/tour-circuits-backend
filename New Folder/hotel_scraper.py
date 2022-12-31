@@ -55,8 +55,12 @@ def get_hotels(destination):
 
     individual_hotel_items = hotels_div.find_elements(By.CLASS_NAME, "uaTTDe")
 
+     
+
     resArr = []
     for individual_hotel_item in individual_hotel_items:
+      # hotel_img = individual_hotel_item.find_element(By.XPATH, './/img[@class="x7VXS wnGtLb q5P4L"]')
+      
       hotel_name = individual_hotel_item.find_element(By.XPATH, './/h2[@class="BgYkof ogfYpf ykx2he"]')
 
       try:
