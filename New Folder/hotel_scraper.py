@@ -137,8 +137,8 @@ def create_hotels_data(db):
   
 
 if __name__ == '__main__':
-
-  client = MongoClient('mongodb://localhost:27017/')
+  mongoURL = 'mongodb+srv://devbros:2DevBros%40HITK@cluster0.5q9v57a.mongodb.net/?retryWrites=true&w=majority'
+  client = MongoClient(mongoURL)
 
   db = client.tours_database
 
