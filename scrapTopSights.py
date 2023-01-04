@@ -25,7 +25,7 @@ def start_browser():
   chrome_options.add_argument("--disable-extensions")
   chrome_options.add_argument("--disable-gpu")
   chrome_options.add_argument("--no-sandbox") # linux only
-  chrome_options.add_argument("--headless")
+  # chrome_options.add_argument("--headless")
   driver = uc.Chrome(options=chrome_options)
   driver.get('https://google.com/travel') 
   return driver 
@@ -129,7 +129,8 @@ def get_top_sights(destination):
 
 if __name__ == '__main__':
   # driver = start_browser()
-  client = MongoClient('mongodb://localhost:27017/')
+  mongoURL = 'mongodb+srv://devbros:2DevBros%40HITK@cluster0.5q9v57a.mongodb.net/?retryWrites=true&w=majority'
+  client = MongoClient(mongoURL)
 
   db = client.tours_database
   
